@@ -1,0 +1,18 @@
+[gd_scene load_steps=4 format=4 uid="uid://dh5puvimxmi5i"]
+
+[ext_resource type="PackedScene" uid="uid://dtmww4s76h8ss" path="res://test_player.tscn" id="1_o3ius"]
+[ext_resource type="TileSet" uid="uid://cjn7xuglvjuxt" path="res://tile_sets/mockup/mockup.tres" id="2_e7t80"]
+[ext_resource type="PackedScene" uid="uid://dn73u24i3mlyv" path="res://pushing_box/pushing_box.tscn" id="3_e7t80"]
+
+[node name="TestTileWorld" type="Node2D"]
+
+[node name="TestPlayer" parent="." instance=ExtResource("1_o3ius")]
+position = Vector2(272, 218)
+
+[node name="TileMapLayer" type="TileMapLayer" parent="."]
+position = Vector2(-3, 439)
+tile_map_data = PackedByteArray("AAAAAAAAAAACAAkAAAABAAAAAAACAAkAAAACAAAAAAACAAkAAAADAAAAAAACAAkAAAAEAAAAAAACAAkAAAAFAAAAAAACAAkAAAAGAAAAAAACAAkAAAAHAAAAAAACAAkAAAAIAAAAAAACAAkAAAAJAAAAAAACAAkAAAAKAAAAAAACAAkAAAALAAAAAAACAAkAAAAMAAAAAAACAAkAAAANAAAAAAACAAkAAAAOAAAAAAACAAkAAAAPAAAAAAACAAkAAAAQAAAAAAACAAkAAAARAAAAAAACAAkAAAA=")
+tile_set = ExtResource("2_e7t80")
+
+[node name="PushingBox" parent="." instance=ExtResource("3_e7t80")]
+position = Vector2(496, 410)
