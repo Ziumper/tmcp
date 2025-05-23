@@ -14,4 +14,5 @@ There seems to be an issue with collision logic for tile maps.
 
 ## Issue appears on:
 
-* Godot Engine v4.4.1.stable.official.49a5bc7b6 Ubuntu 24.04.2 LTS 
+* Godot Engine v4.4.1.stable.official.49a5bc7b6 Ubuntu 24.04.2 LTS
+* Godot Engine v4.4.1 Windows 10
