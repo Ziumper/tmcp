@@ -12,6 +12,6 @@ There seems to be an issue with collision logic for tile maps.
 * `test_world.tscn` - it's a scene with StaticBody2D node and Simple Collision. Pushing box works as expected without any issues
 * `test_tile_world.tscn` - it's a scene with TileMapLayer with physicsc layer applied on mockup.tres tile set. 
 
-## Tested on:
+## Issue appears on:
 
-* Ubuntu 24.04.2 LTS
+* Godot Engine v4.4.1.stable.official.49a5bc7b6 Ubuntu 24.04.2 LTS 
